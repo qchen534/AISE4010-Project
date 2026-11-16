@@ -1,0 +1,22 @@
+{
+    "model": "TCN",
+    "target": "Plant_1",
+    "lookback": 36,
+    "horizon": 1,
+    "filters": 16,
+    "dropout": 0.1,
+    "learning_rate": 0.0005,
+    "kernel_size": 3,
+    "dilations": [
+        1,
+        2,
+        4,
+        8
+    ],
+    "batch_size": 32,
+    "max_epochs": 60,
+    "early_stopping_patience": 5,
+    "selection_metric": "Validation MAE",
+    "validation_mae": 1.4600106038459362,
+    "validation_rmse": 3.3480654936126837
+}
